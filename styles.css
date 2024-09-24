@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.title {
+    background-color: #ffeb3b;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 20px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+th {
+    background-color: #ffeb3b;
+    font-weight: bold;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+td.highlight {
+    background-color: #f8d7da; /* Light pink for the "HOME" column */
+    font-weight: bold;
+    color: #000;
+}
+
+tbody td {
+    width: 16.6%;
+}
+
+th, td {
+    border: 1px solid #000;
+}
